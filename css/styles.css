@@ -139,3 +139,19 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+img {
+  width: 300px;
+ ;
+} 
+.signin{
+  width: 30%;
+  max-width: 330px;
+  margin: auto;
+  float: right;
+  overflow-wrap: normal;
+  padding-top: 80px;
+  padding-left: 80px;
+   
+}
+
