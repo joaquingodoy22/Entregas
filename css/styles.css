@@ -144,6 +144,9 @@ img {
   width: 300px;
  ;
 } 
+#carosuel {
+  width: 600px;
+}
 .signin{
   width: 30%;
   max-width: 330px;
@@ -156,3 +159,6 @@ img {
 }
 
 
+#carusel div img {
+  width: 600px;
+}

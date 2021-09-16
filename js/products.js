@@ -81,9 +81,14 @@ function showProductsList(){
                     <p class="mb-1">` + products.description + `</p>
                         <div class="precio">
                         <p>` + products.cost + ' ' + products.currency + `</p>
-                        <button id="buyBtn">Comprar.</button>
+                        <button id="buyBtn">Comprar.</button> 
                         
                 </div>
+                <br>
+                <div class="card-footer bg-transparent border-primary">
+                    <a href="product-info.html" class="btn btn-md btn-primary btn-block">Ver producto</a>
+                </div>
+ 
             </div>
         </div>
         `  
