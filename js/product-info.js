@@ -14,16 +14,16 @@ function showRelatedProduct(arrayListado, arrayRelacionados) {
         <a href="products.html" class="list-group-item list-group-item-action related-style">
             <div class="row">
                 <div class="col-3">
-                    <img src="${arrayListado[i].imgSrc}" alt="${arrayListado[i].description}" class="img-thumbnail">
+                    <img src="`+arrayListado[i].imgSrc+`" alt="`+arrayListado[i].description+`" class="img-thumbnail">
                 </div>
                 <div class="col">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">${arrayListado[i].name}</h5>
-                        <small class="text-muted">${arrayListado[i].soldCount} artículos vendidos.</small>
+                        <h5 class="mb-1">`+arrayListado[i].name+`</h5>
+                        <small class="text-muted">`+arrayListado[i].soldCount+` artículos vendidos.</small>
                     </div>
-                    <p class="mb-1">${arrayListado[i].description}</p>
+                    <p class="mb-1">`+arrayListado[i].description+`</p>
                     <div class="precio">
-                    <p>${arrayListado[i].cost} ${arrayListado[i].currency}</p>
+                    <p>`+arrayListado[i].cost+` `+arrayListado[i].currency+`</p>
                     </div>
                 </div>
             </div>

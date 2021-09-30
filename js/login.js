@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 function desconectar() {
     localStorage.clear();
-    location.href = "login.html";
+    
 }
 
 document.addEventListener("DOMContentLoaded", () =>{

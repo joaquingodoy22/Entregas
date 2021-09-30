@@ -149,15 +149,40 @@ img {
 }
 .signin{
   width: 30%;
-  max-width: 330px;
-  margin: auto;
   float: right;
   overflow-wrap: normal;
-  padding-top: 80px;
-  padding-left: 80px;
-   
+  text-align: center ;
+  background-color: black;
+  width: 250px;
+  padding: 20px;  
+  margin-top: 60px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 3px 9px 3px rgb(41 253 255 );
 }
 
+#inputEmail,
+#inputPassword,
+#inputUsuario {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  color: white;
+  outline: none; 
+}
+#inputEmail:hover,
+#inputPassword:hover,
+#inputUsuario:hover{
+  border-color: gold;
+}
+#submitBtn{
+  width: 100%;
+  background: red;
+  border: none;
+  border-radius: 20px;
+}
 
 #carusel div img {
   width: 600px;

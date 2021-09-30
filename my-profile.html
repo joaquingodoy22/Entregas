@@ -31,6 +31,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/dropzone.css" rel="stylesheet">
+  <script src="js/login.js"></script>
 </head>
 
 <body>
@@ -40,7 +41,14 @@
       <a class="py-2 d-none d-md-inline-block" href="categories.html">Categorías</a>
       <a class="py-2 d-none d-md-inline-block" href="products.html">Productos</a>
       <a class="py-2 d-none d-md-inline-block" href="sell.html">Vender</a>
-      <a class="py-2 d-none d-md-inline-block" href="cart.html">Mi carrito</a>
+      <div class="btn-group">
+        <a class="btn btn-secondary btn-lg dropdown-toggle" id="nombre" role="button" href="" data-toggle="dropdown"  aria-haspopup="true"  aria-expanded="false"></a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="cart.html">Mi carrito</a>
+          <a class="dropdown-item" onclick="desconectar()" href="login.html">Cerrar sesión</a>
+          <a class="dropdown-item" href="my-profile.html">Mi perfil</a>
+        </div>
+      </div>
     </div>
   </nav>
   <div class="container p-5">
